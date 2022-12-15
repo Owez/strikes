@@ -10,10 +10,10 @@
 
 <Logo />
 <div class="categories">
-	<CategoryButton icon="/img/Train.png" alt="Trains" href="/trains" />
-	<CategoryButton icon="/img/Postie.png" alt="Postal" href="/postal" />
-	<CategoryButton icon="/img/Medical.png" alt="Medical" href="/medical" />
-	<CategoryButton icon="/img/Education.png" alt="Education" href="/education" />
+	<CategoryButton icon="/img/Train.svg" alt="Trains" href="/trains" />
+	<CategoryButton icon="/img/Postie.svg" alt="Postal" href="/postal" />
+	<CategoryButton icon="/img/Medical.svg" alt="Medical" href="/medical" />
+	<CategoryButton icon="/img/Education.svg" alt="Education" href="/education" />
 </div>
 <slot data={data} />
 
