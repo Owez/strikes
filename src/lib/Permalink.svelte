@@ -57,7 +57,7 @@
 		height: $size;
 		margin-left: 0.3rem;
 		background: none;
-		border: 1px solid rgb(227, 227, 227) !important;
+		border: 1px solid rgb(235, 235, 235) !important;
 		border-radius: 5px;
 
 		&:hover {
