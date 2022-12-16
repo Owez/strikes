@@ -26,7 +26,7 @@
 		width: $size;
 		height: $size;
 		border-radius: 50%;
-		box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25), inset 0px 0px 5px rgba(0, 0, 0, 0.17);
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17), inset 0px 0px 5px rgba(0, 0, 0, 0.05);
 		display: flex;
 		justify-content: center;
 		align-items: center;
