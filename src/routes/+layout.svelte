@@ -4,10 +4,12 @@
 	import Logo from '$lib/Logo.svelte';
 	import CategoryButton from '$lib/CategoryButton.svelte';
 	import type { LayoutData } from './$types';
+	import Permalink from '$lib/Permalink.svelte';
 
 	export let data: LayoutData;
 </script>
 
+<Permalink />
 <Logo />
 <div class="categories">
 	<CategoryButton icon="/img/Train.svg" alt="Trains" href="/trains" />
@@ -15,7 +17,7 @@
 	<CategoryButton icon="/img/Medical.svg" alt="Medical" href="/medical" />
 	<CategoryButton icon="/img/Education.svg" alt="Education" href="/education" />
 </div>
-<slot data={data} />
+<slot {data} />
 
 <style lang="scss">
 	.categories {

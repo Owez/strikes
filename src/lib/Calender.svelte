@@ -13,7 +13,7 @@
 
 <style lang="scss">
 	.calender {
-		$margin-h: 8vw;
+		$margin-h: 10vw;
 		$margin-v: 50px;
 
 		margin-top: $margin-v;

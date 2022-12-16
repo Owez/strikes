@@ -131,11 +131,17 @@
 
 	.card {
 		width: 10rem;
-		aspect-ratio: 4/3;
+		height: 7.5rem;
 		margin: 0.25rem;
 		display: flex;
 		flex-direction: column;
 		overflow-y: auto;
+	}
+
+	@media only screen and (max-width: 425px) {
+		.card {
+			width: 80vw;
+		}
 	}
 
 	.date {

@@ -33,6 +33,7 @@
 		margin-left: calc($h-space / 2);
 		margin-right: calc($h-space / 2);
 		transition: transform 0.125s;
+		flex-shrink: 0;
 
 		&:hover {
 			transform: scale(1.023);
