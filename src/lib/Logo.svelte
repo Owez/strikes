@@ -6,7 +6,6 @@
 
 <style lang="scss">
 	.logo-outer {
-		width: 100vw;
 		display: flex;
 		justify-content: center;
 		align-items: center;
